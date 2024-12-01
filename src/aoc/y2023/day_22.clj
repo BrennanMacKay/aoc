@@ -1,9 +1,9 @@
-(ns aoc-2023.day-22
-  (:require [aoc-2023.common :as common]))
+(ns aoc.y2023.day-22
+  (:require [aoc.common :as common]))
 
 
-(def test-input "problems/day-22-1-t.txt")
-(def p1-input "problems/day-22-1.txt")
+(def test-input "problems/2023/day-22-1-t.txt")
+(def p1-input "problems/2023/day-22-1.txt")
 
 ; [id {:points [[x1 y1 z1]] :min-z z}]
 ; supports [id [id id id]]

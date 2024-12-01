@@ -1,12 +1,12 @@
-(ns aoc-2023.day-8
-  (:require [aoc-2023.common :as common]
+(ns aoc.y2023.day-8
+  (:require [aoc.common :as common]
             [clojure.string :as string]
             [clojure.math.numeric-tower :as nt]))
 
-(def test-input-1 "problems/day-8-1-t-1.txt")
-(def test-input-2 "problems/day-8-1-t-2.txt")
-(def test-input-3 "problems/day-8-1-t-3.txt")
-(def p1-input "problems/day-8-1.txt")
+(def test-input-1 "problems/2023/day-8-1-t-1.txt")
+(def test-input-2 "problems/2023/day-8-1-t-2.txt")
+(def test-input-3 "problems/2023/day-8-1-t-3.txt")
+(def p1-input "problems/2023/day-8-1.txt")
 
 (def start "AAA")
 (def end "ZZZ")

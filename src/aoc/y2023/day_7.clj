@@ -1,11 +1,11 @@
-(ns aoc-2023.day-7
-  (:require [aoc-2023.common :as common]))
+(ns aoc.y2023.day-7
+  (:require [aoc.common :as common]))
 
-(def test-input "problems/day-7-1-t.txt")
-(def test-all-hands "problems/day-7-1-t-all-hands.txt")
-(def test-jokers "problems/day-7-1-t-jokers.txt")
-(def test-jokers2 "problems/day-7-1-t-jokers2.txt")
-(def p1-input "problems/day-7-1.txt")
+(def test-input "problems/2023/day-7-1-t.txt")
+(def test-all-hands "problems/2023/day-7-1-t-all-hands.txt")
+(def test-jokers "problems/2023/day-7-1-t-jokers.txt")
+(def test-jokers2 "problems/2023/day-7-1-t-jokers2.txt")
+(def p1-input "problems/2023/day-7-1.txt")
 
 
 ;; A, K, Q, J, T, 9, 8, 7, 6, 5, 4, 3, 2

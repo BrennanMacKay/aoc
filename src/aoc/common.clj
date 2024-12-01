@@ -1,4 +1,4 @@
-(ns aoc-2023.common
+(ns aoc.common
   (:require [clojure.java.io :as io]
             [clojure.string :as string])
   (:import (clojure.lang PersistentQueue)

@@ -1,11 +1,11 @@
-(ns aoc-2023.day-17
-  (:require [aoc-2023.common :as common]
+(ns aoc.y2023.day-17
+  (:require [aoc.common :as common]
             [clojure.data.priority-map :as pmap]))
 
-(def test-input "problems/day-17-1-t.txt")
-(def small-input "problems/day-17-1-t-1.txt")
-(def p2-test-input "problems/day-17-1-t-2.txt")
-(def p1-input "problems/day-17-1.txt")
+(def test-input "problems/2023/day-17-1-t.txt")
+(def small-input "problems/2023/day-17-1-t-1.txt")
+(def p2-test-input "problems/2023/day-17-1-t-2.txt")
+(def p1-input "problems/2023/day-17-1.txt")
 
 
 (defn neighbors-p1 [x y dx dy bx by steps]

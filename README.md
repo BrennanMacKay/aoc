@@ -1,4 +1,4 @@
-# aoc-2023
+# aoc
 
 A Clojure library designed to ... well, that part is up to you.
 

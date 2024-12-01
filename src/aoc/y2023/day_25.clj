@@ -1,11 +1,11 @@
-(ns aoc-2023.day-25
-  (:require [aoc-2023.common :as common])
+(ns aoc.y2023.day-25
+  (:require [aoc.common :as common])
   (:import org.jgrapht.graph.DefaultUndirectedGraph
            org.jgrapht.graph.DefaultEdge
            org.jgrapht.alg.StoerWagnerMinimumCut))
 
-(def test-input "problems/day-25-1-t.txt")
-(def p1-input "problems/day-25-1.txt")
+(def test-input "problems/2023/day-25-1-t.txt")
+(def p1-input "problems/2023/day-25-1.txt")
 
 (defn parse-lines [lines]
   (reduce (fn [graph line]

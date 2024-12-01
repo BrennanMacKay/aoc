@@ -1,8 +1,8 @@
-(ns aoc-2023.day-11
-  (:require [aoc-2023.common :as common]))
+(ns aoc.y2023.day-11
+  (:require [aoc.common :as common]))
 
-(def test-input "problems/day-11-1-t.txt")
-(def p1-input "problems/day-11-1.txt")
+(def test-input "problems/2023/day-11-1-t.txt")
+(def p1-input "problems/2023/day-11-1.txt")
 
 (defn parse-galaxy
   ([[curr & rem]]

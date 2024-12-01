@@ -1,10 +1,10 @@
-(ns aoc-2023.day-2
-  (:require [aoc-2023.common :as common]
+(ns aoc.y2023.day-2
+  (:require [aoc.common :as common]
             [clojure.string :as string]))
 
 (def cube-counts {"red" 12 "green" 13 "blue" 14})
-(def test-file "problems/day-2-1-t.txt")
-(def p1-file "problems/day-2-1.txt")
+(def test-file "problems/2023/day-2-1-t.txt")
+(def p1-file "problems/2023/day-2-1.txt")
 
 (defn max-counts [sets]
   (apply (partial merge-with max) sets))

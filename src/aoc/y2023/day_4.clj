@@ -1,10 +1,10 @@
-(ns aoc-2023.day-4
-  (:require [aoc-2023.common :as common]
+(ns aoc.y2023.day-4
+  (:require [aoc.common :as common]
             [clojure.string :as string]
             [clojure.math :as math]))
 
-(def test-input "problems/day-4-1-t.txt")
-(def p1-input "problems/day-4-1.txt")
+(def test-input "problems/2023/day-4-1-t.txt")
+(def p1-input "problems/2023/day-4-1.txt")
 
 (def exp #"Card\s+(\d+):\s+(\d+\s+)+\|\s+(\d+\s+)+")
 

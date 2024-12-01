@@ -1,9 +1,9 @@
-(ns aoc-2023.day-21
-  (:require [aoc-2023.common :as common]))
+(ns aoc.y2023.day-21
+  (:require [aoc.common :as common]))
 
-(def test-input "problems/day-21-1-t.txt")
-(def test-input-2 "problems/day-21-1-t-2.txt")
-(def p1-input "problems/day-21-1.txt")
+(def test-input "problems/2023/day-21-1-t.txt")
+(def test-input-2 "problems/2023/day-21-1-t-2.txt")
+(def p1-input "problems/2023/day-21-1.txt")
 
 (defn get-inf [grid x y]
   (let [max (alength grid)

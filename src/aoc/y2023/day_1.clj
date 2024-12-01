@@ -1,8 +1,8 @@
-(ns aoc-2023.day-1
-  (:require [aoc-2023.common :as common]
+(ns aoc.y2023.day-1
+  (:require [aoc.common :as common]
             [clojure.string :as string]))
 
-(def filename "problems/day-1-1.txt")
+(def filename "problems/2023/day-1-1.txt")
 (def digit-p2 #"\d|one|two|three|four|five|six|seven|eight|nine|eno|owt|eerht|ruof|evif|xis|neves|thgie|enin")
 
 (def digit-map {"one"   "1" (string/reverse "one") "1"

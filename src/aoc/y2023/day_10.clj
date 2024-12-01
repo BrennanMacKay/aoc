@@ -1,14 +1,14 @@
-(ns aoc-2023.day-10
-  (:require [aoc-2023.common :as common]
+(ns aoc.y2023.day-10
+  (:require [aoc.common :as common]
             [clojure.string :as string]))
 
-(def test-input-1 "problems/day-10-1-t-1.txt")
-(def test-input-2 "problems/day-10-1-t-2.txt")
-(def test-input-3 "problems/day-10-1-t-3.txt")
-(def test-input-4 "problems/day-10-1-t-4.txt")
-(def test-input-5 "problems/day-10-1-t-5.txt")
+(def test-input-1 "problems/2023/day-10-1-t-1.txt")
+(def test-input-2 "problems/2023/day-10-1-t-2.txt")
+(def test-input-3 "problems/2023/day-10-1-t-3.txt")
+(def test-input-4 "problems/2023/day-10-1-t-4.txt")
+(def test-input-5 "problems/2023/day-10-1-t-5.txt")
 
-(def p1-input "problems/day-10-1.txt")
+(def p1-input "problems/2023/day-10-1.txt")
 
 
 ;| is a vertical pipe connecting north and south.

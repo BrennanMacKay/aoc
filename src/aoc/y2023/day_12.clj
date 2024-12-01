@@ -1,9 +1,9 @@
-(ns aoc-2023.day-12
-  (:require [aoc-2023.common :as common]
+(ns aoc.y2023.day-12
+  (:require [aoc.common :as common]
             [clojure.string :as string]))
 
-(def test-input "problems/day-12-1-t.txt")
-(def p1-input "problems/day-12-1.txt")
+(def test-input "problems/2023/day-12-1-t.txt")
+(def p1-input "problems/2023/day-12-1.txt")
 
 (defn contains-empty? [pattern length]
   (some #{\.} (take length pattern)))

@@ -1,8 +1,8 @@
-(ns aoc-2023.day-24
-  (:require [aoc-2023.common :as common]))
+(ns aoc.y2023.day-24
+  (:require [aoc.common :as common]))
 
-(def test-input "problems/day-24-1-t.txt")
-(def p1-input "problems/day-24-1.txt")
+(def test-input "problems/2023/day-24-1-t.txt")
+(def p1-input "problems/2023/day-24-1.txt")
 
 (defn parse-line [idx line]
   (let [[x y z dx dy dz] (map #(Long/parseLong %) (re-seq #"\-?\d+" line))

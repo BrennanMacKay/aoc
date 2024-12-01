@@ -1,12 +1,12 @@
-(ns aoc-2023.day-20
-  (:require [aoc-2023.common :as common]
+(ns aoc.y2023.day-20
+  (:require [aoc.common :as common]
             [clojure.math.numeric-tower :as nt]
             [clojure.string :as string]))
 
 
-(def test-input-1 "problems/day-20-1-t-1.txt")
-(def test-input-2 "problems/day-20-1-t-2.txt")
-(def p1-input "problems/day-20-1.txt")
+(def test-input-1 "problems/2023/day-20-1-t-1.txt")
+(def test-input-2 "problems/2023/day-20-1-t-2.txt")
+(def p1-input "problems/2023/day-20-1.txt")
 
 (defn parse-module [line]
   (let [[module & dests] (string/split line #"( -> )|(, )")
