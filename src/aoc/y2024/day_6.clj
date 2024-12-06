@@ -78,13 +78,13 @@
      (count visited))))
 
 (defn try-obs [x y size obs]
-  (for [ox (range size)
-        oy (range size)]
-    (cond
-      (= [x y] [ox oy]) :skipped-guard
-      (contains? obs [ox oy]) :skipped
-      (= :loop (path x y :north size (conj obs [ox oy]) {})) :loop
-      :default :escape)))
+  (let [visited (keys (path x y :north size obs {}))]
+    (map (fn [[ox oy]]
+           (cond
+             (= [x y] [ox oy]) :skipped-guard
+             (contains? obs [ox oy]) :skipped
+             (= :loop (path x y :north size (conj obs [ox oy]) {})) :loop
+             :default :escape)) visited)))
 
 (defn problem-two
   ([] (problem-two filename))
