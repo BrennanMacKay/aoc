@@ -33,3 +33,6 @@
 (defn draw-2d-array [grid]
   (mapv (fn [y]
           (prn (vec (aget grid y)))) (range (alength grid))))
+
+(defn char->int [c]
+  (- (int c) 48))
