@@ -36,3 +36,6 @@
 
 (defn char->int [c]
   (- (int c) 48))
+
+(defn s->int [s]
+  (Integer/parseInt s))
